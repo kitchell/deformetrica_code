@@ -68,7 +68,8 @@ RUN cd VTK && mkdir build && cd build && \
 
 ## Clone and initialize the Deformetrica repository
 ENV DEFORMETRICA_HOME /usr/src/deformetrica
-RUN git clone https://$GITLAB_USER:$GITLAB_PSWD@gitlab.icm-institute.org/aramis/deformetrica.git $DEFORMETRICA_HOME
+#RUN git clone https://$GITLAB_USER:$GITLAB_PSWD@gitlab.icm-institute.org/aramis/deformetrica.git $DEFORMETRICA_HOME
+RUN git clone https://gitlab.icm-institute.org/kitchell/deformetrica.git $DEFORMETRICA_HOME
 WORKDIR $DEFORMETRICA_HOME
 RUN git checkout stable
 RUN git submodule init

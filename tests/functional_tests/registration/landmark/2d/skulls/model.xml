@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<model>
+
+    <model-type>Registration</model-type>
+
+    <template>
+        <object id="skull">
+            <deformable-object-type>NonOrientedPolyline</deformable-object-type>
+            <data-sigma>1.0</data-sigma>
+            <kernel-width>40.0</kernel-width>
+            <filename>data/template.vtk</filename>
+        </object>
+    </template>
+
+    <deformation-parameters>
+        <kernel-width>60</kernel-width>
+        <number-of-timepoints>6</number-of-timepoints>
+    </deformation-parameters>
+
+</model>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<data-set>
+
+    <subject id="parabola1">
+        <visit id="experiment">
+            <filename object_id="line">data/1-subject1.vtk</filename>
+            <filename object_id="wave">data/2-subject1.vtk</filename>
+        </visit>
+    </subject>
+
+    <subject id="parabola2">
+        <visit id="experiment">
+            <filename object_id="line">data/1-subject2.vtk</filename>
+            <filename object_id="wave">data/2-subject2.vtk</filename>
+        </visit>
+    </subject>
+    <subject id="parabola3">
+        <visit id="experiment">
+            <filename object_id="line">data/1-subject3.vtk</filename>
+            <filename object_id="wave">data/2-subject3.vtk</filename>
+        </visit>
+    </subject>
+
+</data-set>
+

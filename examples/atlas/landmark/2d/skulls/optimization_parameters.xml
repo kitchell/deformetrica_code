@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<optimization-parameters>
+
+    <optimization-method-type>FastGradientAscent</optimization-method-type>
+    <initial-step-size>0.1</initial-step-size>
+    <number-of-threads>4</number-of-threads>
+    <smoothing-kernel-with-ratio>0.5</smoothing-kernel-with-ratio>
+
+</optimization-parameters>

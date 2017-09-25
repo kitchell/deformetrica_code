@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<data-set>
+    <subject id="subject">
+        <visit id="square3">
+            <filename object_id="skull">data/square3.vtk</filename>
+        </visit>
+    </subject>
+</data-set>

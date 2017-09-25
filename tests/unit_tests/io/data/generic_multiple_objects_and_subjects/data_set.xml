@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<data-set>
+
+    <subject id="subj1">
+        <visit id="m0">
+            <age>65.2</age>
+            <filename object_id="bundle">x1</filename>
+            <filename object_id="cortico">x2</filename>
+        </visit>
+        <visit id="m1">
+            <age>68.2</age>
+            <filename object_id="bundle">x3</filename>
+            <filename object_id="cortico">x4</filename>
+        </visit>
+    </subject>
+
+    <subject id="subj2">
+        <visit id="t0">
+            <age>62</age>
+            <filename object_id="bundle">x5</filename>
+            <filename object_id="cortico">x6</filename>
+        </visit>
+        <visit id="t1">
+            <age>62.5</age>
+            <filename object_id="bundle">x7</filename>
+            <filename object_id="cortico">x8</filename>
+        </visit>
+        <visit id="t3">
+            <age>62.8</age>
+            <filename object_id="bundle">x9</filename>
+            <filename object_id="cortico">x10</filename>
+        </visit>
+        <visit id="t4">
+            <age>63.5</age>
+            <filename object_id="bundle">x11</filename>
+            <filename object_id="cortico">x12</filename>
+        </visit>
+    </subject>
+
+    <subject id="subj3">
+        <visit id="visit_0">
+            <age>71.2</age>
+            <filename object_id="bundle">x13</filename>
+            <filename object_id="cortico">x14</filename>
+        </visit>
+    </subject>
+
+</data-set>

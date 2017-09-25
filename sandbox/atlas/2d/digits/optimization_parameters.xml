@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<optimization-parameters>
+
+    <!-- for Pietro, the first 2 are to move to model.xml -->
+
+    <!-- Type of optimization method for the atlas / matching problem (GradientAscent or FastGradientAscent) -->
+    <optimization-method-type>SrwMhwgSaem</optimization-method-type>
+
+    <!-- Initial step multiplier for gradient descent (default : 10.0) -->
+    <!--<initial-step-multiplier>0.001</initial-step-multiplier>-->
+
+    <!-- Maximum of descent iterations (default : 100) -->
+    <max-iterations>600</max-iterations>
+    <!-- Maximum number for the search of the optimal step on an iteration (default : 10) -->
+    <!--<max-line-search-iterations>10</max-line-search-iterations>-->
+    <!-- Step expand for the gradient descent (default : 1.2) -->
+    <!--<step-expand>1.2</step-expand>-->
+    <!-- Step shrink for the gradient descent  (default : 0.5) -->
+    <!--<step-shrink>0.5</step-shrink>-->
+    <!-- Adaptive tolerance (default : 1e-04) -->
+    <!--<adaptive-tolerance>1e-4</adaptive-tolerance>-->
+
+    <!-- For all algorithms -->
+    <print-every-n-iters>1</print-every-n-iters>
+    <save-every-n-iters>5</save-every-n-iters>
+    <!-- For Saem algorithms -->
+    <print-ar-window>100</print-ar-window>
+    <adaptive-ar-window>10</adaptive-ar-window>
+    <adaptive-ar-target>30</adaptive-ar-target>
+    <!-- For the SrwMhwgSaem algorithm -->
+    <srw-proposal-blocksize>0</srw-proposal-blocksize>
+    <srw-proposal-std-cp>0.0225</srw-proposal-std-cp>
+    <srw-proposal-std-mom>0.065</srw-proposal-std-mom>
+    <srw-proposal-std-mix>0.05</srw-proposal-std-mix>
+    <!-- For the MalaSaem algorithm -->
+    <mala-scale-cp>0.0024</mala-scale-cp>
+    <mala-scale-mom>0.0024</mala-scale-mom>
+    <!-- For the AmalaSaem algorithm -->
+    <amala-scale-mean-cp>0.25</amala-scale-mean-cp>
+    <amala-scale-var-cp>0.1</amala-scale-var-cp>
+    <amala-scale-mean-mom>0.5</amala-scale-mean-mom>
+    <amala-scale-var-mom>1</amala-scale-var-mom>
+    <amala-regul-cp>1</amala-regul-cp>
+    <amala-regul-mom>1</amala-regul-mom>
+
+    <!-- Number of threads (default : 1) -->
+    <!-- for Matching always to 1; for Atlas x -->
+    <number-of-threads>4</number-of-threads>
+
+</optimization-parameters>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<optimization-parameters>
+
+    <initial-step-size>0.001</initial-step-size>
+
+    <max-iterations>10</max-iterations>
+    <max-line-search-iterations>10</max-line-search-iterations>
+
+    <smoothing-kernel-width-ratio>0.1</smoothing-kernel-width-ratio>
+
+</optimization-parameters>
+

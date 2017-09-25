@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<optimization-parameters>
+
+    <optimization-method-type>FastGradientAscent</optimization-method-type>
+
+    <max-iterations>50</max-iterations>
+    <print-every-n-iters>1</print-every-n-iters>
+    <save-every-n-iters>10</save-every-n-iters>
+
+    <initial-step-size>1e-7</initial-step-size>
+    <p3m-padding-factor>100</p3m-padding-factor>
+
+</optimization-parameters>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<model>
+    <model-type>DeterministicAtlas</model-type>
+
+    <template>
+        <object id="line">
+            <deformable-object-type>OrientedPolyline</deformable-object-type>
+            <kernel-type>exact</kernel-type>
+            <kernel-width>0.2</kernel-width>
+            <data-sigma>1</data-sigma>
+            <filename>data/1-meantemplate.vtk</filename>
+        </object>
+
+        <object id="wave">
+            <deformable-object-type>OrientedPolyline</deformable-object-type>
+            <kernel-type>exact</kernel-type>
+            <kernel-width>0.2</kernel-width>
+            <data-sigma>1</data-sigma>
+            <filename>data/2-meantemplate.vtk</filename>
+        </object>
+    </template>
+
+    <deformation-parameters>
+        <kernel-width>0.20</kernel-width>
+        <kernel-type>exact</kernel-type>
+        <number-of-timepoints>10</number-of-timepoints>
+    </deformation-parameters>
+
+</model>
+

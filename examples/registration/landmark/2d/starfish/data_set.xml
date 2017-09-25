@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<data-set>
+    <subject id="fellow starfish">
+        <visit id="experiment">
+            <age>1</age>
+            <filename object_id="starfish">data/Starfish1.vtk</filename>
+        </visit>
+    </subject>
+</data-set>

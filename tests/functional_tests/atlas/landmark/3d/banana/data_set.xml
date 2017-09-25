@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<data-set>
+
+    <subject id="banana1">
+        <visit id="experiment">
+            <filename object_id="surface">data/banana_1.vtk</filename>
+        </visit>
+    </subject>
+
+    <subject id="banana2">
+        <visit id="experiment">
+            <filename object_id="surface">data/banana_2.vtk</filename>
+        </visit>
+    </subject>read
+
+    <subject id="banana3">
+        <visit id="experiment">
+            <filename object_id="surface">data/banana_3.vtk</filename>
+        </visit>
+    </subject>
+
+</data-set>

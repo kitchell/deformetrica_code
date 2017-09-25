@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<data-set>
+
+    <subject id="subj001">
+        <gender>male</gender>
+
+        <visit id="baseline">
+            <age>63</age>
+            <filename object_id="cortex">../CorticalSurface001_01.vtk</filename>
+            <filename object_id="cortico_putamen_bundle">../Cortico_Putamen_Fibers_001_01.vtk</filename>
+        </visit>
+
+        <visit id="m12">
+            <age>64</age>
+            <filename object_id="cortex">../CorticalSurface001_02.vtk</filename>
+            <filename object_id="cortico_putamen_bundle">../Cortico_Putamen_Fibers_001_02.vtk</filename>
+        </visit>
+
+    </subject>
+
+    <subject id="subj002">
+        <gender>female</gender>
+
+        <visit id="baseline">
+            <age>56</age>
+            <filename object_id="cortex">../CorticalSurface002_01.vtk</filename>
+            <filename object_id="cortico_putamen_bundle">../Cortico_Putamen_Fibers_002_01.vtk</filename>
+        </visit>
+
+        <visit id="m24">
+            <age>58</age>
+            <filename object_id="cortex">../CorticalSurface002_02.vtk</filename>
+            <filename object_id="cortico_putamen_bundle">../Cortico_Putamen_Fibers_002_02.vtk</filename>
+        </visit>
+
+        <visit id="m36">
+            <age>59</age>
+            <filename object_id="cortex">../CorticalSurface002_03.vtk</filename>
+            <filename object_id="cortico_putamen_bundle">../Cortico_Putamen_Fibers_002_03.vtk</filename>
+        </visit>
+
+    </subject>
+
+</data-set>

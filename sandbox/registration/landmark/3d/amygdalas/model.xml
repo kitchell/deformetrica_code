@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<model>
+    <model-type>Registration</model-type>
+
+    <template>
+        <object id="triangle">
+            <deformable-object-type>OrientedSurfaceMesh</deformable-object-type>
+            <data-sigma>0.1</data-sigma>
+            <kernel-width>10.</kernel-width>
+            <kernel-type>exact</kernel-type>
+            <filename>data/decimatedAmygdala1.vtk</filename>
+        </object>
+    </template>
+
+    <deformation-parameters>
+        <kernel-width>10</kernel-width>
+        <kernel-type>exact</kernel-type>
+        <number-of-timepoints>10</number-of-timepoints>
+    </deformation-parameters>
+</model>

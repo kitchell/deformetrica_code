@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<model>
+
+    <model-type>LongitudinalAtlas</model-type>
+
+    <template>
+        <object id="starman">
+            <deformable-object-type>NonOrientedPolyLine</deformable-object-type>
+            <kernel-type>exact</kernel-type>
+            <kernel-width>1</kernel-width>
+            <filename>data/LongitudinalAtlas__Parameters__Template.vtk</filename>
+            <data-sigma>0.0925863</data-sigma>
+        </object>
+    </template>
+
+    <deformation-parameters>
+        <kernel-type>exact</kernel-type>
+        <kernel-width>1</kernel-width>
+        <concentration-of-timepoints>5</concentration-of-timepoints>
+        <margin-on-geodesic>1.25</margin-on-geodesic>
+    </deformation-parameters>
+
+    <initial-cp-position>data/LongitudinalAtlas__Parameters__ControlPoints.txt</initial-cp-position>
+    <initial-mom-values>data/LongitudinalAtlas__Parameters__Momenta.txt</initial-mom-values>
+    <modmat>data/LongitudinalAtlas__Parameters__ModulationMatrix.txt</modmat>
+    <reftime>70.9804</reftime>
+    <timeshift-var>0.79486</timeshift-var>
+    <logacc-var>0.080855</logacc-var>
+
+    <nb-sources>2</nb-sources>
+
+</model>

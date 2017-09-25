@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- Give the filename of each object for each subject's visit, and associated meta-data associated to each subject and/or each visit -->
+<!-- the visit's id are optional -->
+<data-set>
+
+    <subject id="subj1">
+        <visit id="m0">
+            <filename object_id="bundle">Data/Bundle_Left_Cortico_Putamen/lpu_to_pial_subj1_MP_std2_perc15.vtk</filename>
+            <filename object_id="cortico">Data/Left_Putamen/ngc_1002_CT_DS_RT_subj_1.vtk</filename>
+        </visit>
+    </subject>
+
+    <subject id="subj2">
+        <visit id="m0">
+            <filename object_id="bundle">Data/Bundle_Left_Cortico_Putamen/lpu_to_pial_subj2_MP_std2_perc15.vtk</filename>
+            <filename object_id="cortico">Data/Left_Putamen/ngc_1002_CT_DS_RT_subj_2.vtk</filename>
+        </visit>
+    </subject>
+
+</data-set>

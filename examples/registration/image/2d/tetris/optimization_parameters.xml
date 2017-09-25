@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<optimization-parameters>
+
+    <optimization-method-type>GradientAscent</optimization-method-type>
+    <optimize-initial-cp>On</optimize-initial-cp>
+
+</optimization-parameters>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<model>
+
+    <!--types of model (ie. Bayesian, Deterministic) -->
+    <!-- if shootandFlow OR sparseMatchtin OR CreateDeformationField THEN Deterministic -->
+    <!-- if sparseAtlas THEN Deterministic OR Bayesian -->
+    <!-- <model-type> tag is like the old <atlas-type> -->
+    <model-type>BayesianAtlasMixture</model-type>
+
+    <!-- Step of the regular grid of control points (default : 0.0 meaning a value will be estimated automatically) -->
+    <!--<initial-cp-spacing>0.3</initial-cp-spacing>-->
+    <!--<initial-cp-position></initial-cp-position>-->
+
+    <!--Give the filename of the template objects and their associated types and parameters; Be careful: each object's id will be used to identify the corresponding object in data_set.xml -->
+    <!-- template contains a sub-set of data from the old paramSurface.xml file -->
+    <template>
+        <object id="img">
+            <deformable-object-type>ParametricImage</deformable-object-type>
+            <data-sigma>0.02</data-sigma>
+            <kernel-type>exact</kernel-type>
+            <kernel-width>1.5</kernel-width>
+            <filename>../data/digit_2_mean.png</filename>
+            <!--<photometric-cp-spacing>2</photometric-cp-spacing>-->
+        </object>
+    </template>
+
+    <!-- from paramDiffeos.xml file -->
+    <deformation-parameters>
+        <!-- Size of the kernel (default : 0.0) -->
+        <kernel-width>3</kernel-width>
+        <!-- Choice of the evaluation method of the kernel : exact, p3m (default : p3m) -->
+        <kernel-type>exact</kernel-type>
+        <!-- Choice of the number of time points between t0 and tn (default : 10) -->
+        <number-of-timepoints>10</number-of-timepoints>
+        <!--<t0></t0>-->
+        <!--<tn></tn>-->
+    </deformation-parameters>
+
+</model>

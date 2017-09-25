@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<optimization-parameters>
+
+    <!-- for Pietro, the first 2 are to move to model.xml -->
+
+    <!-- Type of optimization method for the atlas / matching problem (GradientAscent or FastGradientAscent) -->
+    <optimization-method-type>GradientAscent</optimization-method-type>
+
+    <!-- Initial step multiplier for gradient descent (default : 10.0) -->
+    <!-- <initial-step-multiplier>0.1</initial-step-multiplier> -->
+
+    <!-- Maximum of descent iterations (default : 100) -->
+    <max-iterations>200</max-iterations>
+    <!-- Maximum number for the search of the optimal step on an iteration (default : 10) -->
+    <max-line-search-iterations>20</max-line-search-iterations>
+    <!-- Step expand for the gradient descent (default : 1.2) -->
+    <!-- <step-expand>2.0</step-expand> -->
+    <!-- Step shrink for the gradient descent  (default : 0.5) -->
+    <!-- <step-shrink>0.5</step-shrink> -->
+    <!-- Adaptive tolerance (default : 1e-04) -->
+    <adaptive-tolerance>1e-6</adaptive-tolerance>
+
+    <!-- Number of threads (default : 1) -->
+    <!-- for Matching always to 1; for Atlas x -->
+    <!-- <number-of-threads>1</number-of-threads> -->
+
+</optimization-parameters>

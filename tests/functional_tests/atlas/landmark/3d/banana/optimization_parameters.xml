@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<optimization-parameters>
+
+
+    <optimization-method-type>GradientAscent</optimization-method-type>
+
+    <max-iterations>150</max-iterations>
+    <max-line-search-iterations>20</max-line-search-iterations>
+    <step-expand>2.0</step-expand>
+
+</optimization-parameters>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<model>
+    <model-type>Registration</model-type>
+
+    <template>
+        <object id="hippocampus">
+            <deformable-object-type>OrientedSurfaceMesh</deformable-object-type>
+            <reorient-normals>Off</reorient-normals>
+            <data-sigma>0.1</data-sigma>
+            <kernel-width>15.</kernel-width>
+            <kernel-type>cudaexact</kernel-type>
+            <filename>data/source.vtk</filename>
+        </object>
+    </template>
+
+    <deformation-parameters>
+        <kernel-width>10</kernel-width>
+        <kernel-type>cudaexact</kernel-type>
+        <number-of-timepoints>5</number-of-timepoints>
+    </deformation-parameters>
+</model>

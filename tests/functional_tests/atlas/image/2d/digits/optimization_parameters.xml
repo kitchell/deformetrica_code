@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<optimization-parameters>
+
+    <optimization-method-type>FastGradientAscent</optimization-method-type>
+
+    <max-iterations>5</max-iterations>
+    <adaptive-tolerance>1e-6</adaptive-tolerance>
+
+</optimization-parameters>

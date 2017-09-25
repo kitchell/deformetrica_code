@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<data-set>
+
+    <!-- Note: on spareMatching : just 1 model and 1 subject -->
+    <!-- Note: on spareAtlas : just 1 model and N subject -->
+    <subject id="irm1">
+        <visit id="experiment">
+            <age>1</age>
+            <filename object_id="surface">../data/ellipsoidImage10_10_3.nii</filename>
+        </visit>
+    </subject>
+
+
+    <subject id="irm2">
+        <visit id="experiment">
+            <age>2</age>
+            <filename object_id="surface">../data/ellipsoidImage10_10_5.nii</filename>
+        </visit>
+    </subject>
+
+    <subject id="irm3">
+        <visit id="experiment">
+            <age>3</age>
+            <filename object_id="surface">../data/ellipsoidImage10_10_7.nii</filename>
+        </visit>
+    </subject>
+
+    <subject id="irm4">
+        <visit id="experiment">
+            <age>4</age>
+            <filename object_id="surface">../data/ellipsoidImage10_10_9.nii</filename>
+        </visit>
+    </subject>
+
+
+</data-set>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<model>
+
+    <model-type>Regression</model-type>
+
+    <initial-cp-spacing>40</initial-cp-spacing>
+
+    <template>
+        <object id="skull">
+            <deformable-object-type>NonOrientedPolyline</deformable-object-type>
+            <data-sigma>1.0</data-sigma>
+            <kernel-width>40.0</kernel-width>
+            <filename>data/template.vtk</filename>
+        </object>
+    </template>
+
+    <deformation-parameters>
+        <kernel-width>60</kernel-width>
+        <number-of-timepoints>5</number-of-timepoints>
+        <t0>0.0</t0>
+        <tn>5.0</tn>
+    </deformation-parameters>
+
+</model>

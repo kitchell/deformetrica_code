@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<sparse-diffeo-parameters>
+
+    <kernel-width>1.5</kernel-width>
+    <kernel-type>Exact</kernel-type>
+    <sparsity-prior>0</sparsity-prior>
+    <initial-cp-spacing>0.3</initial-cp-spacing>
+    <number-of-timepoints>20</number-of-timepoints>
+    <max-iterations>200</max-iterations>
+    <max-line-search-iterations>20</max-line-search-iterations>
+    <step-expand>2.0</step-expand>
+    <step-shrink>0.5</step-shrink>
+    <initial-step-multiplier>0.001</initial-step-multiplier>
+    <adaptive-tolerance>1e-4</adaptive-tolerance>
+    <number-of-threads>1</number-of-threads>
+    <atlas-type>bayesian</atlas-type>
+    
+</sparse-diffeo-parameters>

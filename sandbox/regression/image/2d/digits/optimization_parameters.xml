@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<optimization-parameters>
+
+    <optimization-method>FastGradientAscent</optimization-method>
+
+    <max-iterations>200</max-iterations>
+    <max-line-search-iterations>20</max-line-search-iterations>
+
+    <adaptive-tolerance>1e-4</adaptive-tolerance>
+
+    <freeze-template>On</freeze-template>
+    <!--<compute-true-inverse-flow>Off</compute-true-inverse-flow>-->
+
+</optimization-parameters>

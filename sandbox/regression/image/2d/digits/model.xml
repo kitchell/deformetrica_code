@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<model>
+
+    <!--<model-type>DeterministicAtlas</model-type>-->
+
+    <!--Give the filename of the template objects and their associated types and parameters; Be careful: each object's id will be used to identify the corresponding object in data_set.xml -->
+    <template>
+        <object id="img">
+            <deformable-object-type>SSDImage</deformable-object-type>
+            <data-sigma>0.05</data-sigma>
+            <!--<kernel-width>40.0</kernel-width>-->
+            <!--<kernel-type>exact</kernel-type>-->
+            <!--<image-grid-downsampling>1</image-grid-downsampling>-->
+            <filename>../data/I2.png</filename>
+        </object>
+    </template>
+
+    <!-- from paramDiffeos.xml file -->
+    <deformation-parameters>
+        <!-- Size of the kernel (default : 0.0) -->
+        <kernel-width>30.0</kernel-width>
+        <!-- Choice of the evaluation method of the kernel : exact, p3m (default : p3m) -->
+        <kernel-type>cudaexact</kernel-type>
+        <!-- Choice of the number of time points between t0 and tn (default : 10) -->
+        <number-of-timepoints>10</number-of-timepoints>
+    </deformation-parameters>
+
+</model>

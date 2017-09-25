@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<model>
+    <model-type>Registration</model-type>
+    <template>
+        <object id="bundle">
+            <deformable-object-type>NonOrientedPolyline</deformable-object-type>
+            <data-sigma>1</data-sigma>
+            <kernel-width>11</kernel-width>
+            <kernel-type>cudaexact</kernel-type>
+            <filename>data/bundle_prototype.vtk</filename>
+        </object>
+        <object id="putamen">
+            <deformable-object-type>NonOrientedSurfaceMesh</deformable-object-type>
+            <data-sigma>0.1</data-sigma>
+            <kernel-width>11</kernel-width>
+            <kernel-type>cudaexact</kernel-type>
+            <filename>data/putamen_prototype.vtk</filename>
+        </object>
+    </template>
+    <deformation-parameters>
+        <kernel-width>15</kernel-width>
+        <kernel-type>cudaexact</kernel-type>
+        <number-of-timepoints>10</number-of-timepoints>
+    </deformation-parameters>
+</model>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<optimization-parameters>
+
+    <optimization-method-TYPE>FastGradientAscent</optimization-method-TYPE>
+
+    <initial-step-size>0.01</initial-step-size>
+
+    <p3m-padding-factor>3.0</p3m-padding-factor>
+    <p3m-working-spacing-ratio>0.2</p3m-working-spacing-ratio>
+    <max-iterations>150</max-iterations>
+    <max-line-search-iterations>20</max-line-search-iterations>
+    <step-expand>2.0</step-expand>
+    <step-shrink>0.5</step-shrink>
+    <adaptive-tolerance>1e-4</adaptive-tolerance>
+    <number-of-threads>1</number-of-threads>
+
+</optimization-parameters>

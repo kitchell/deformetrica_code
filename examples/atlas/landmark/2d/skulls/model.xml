@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<model>
+
+    <model-type>BayesianAtlas</model-type>
+
+    <template>
+        <object id="skull">
+            <deformable-object-type>NonOrientedPolyline</deformable-object-type>
+            <kernel-width>25</kernel-width>
+            <kernel-type>exact</kernel-type>
+            <filename>data/template.vtk</filename>
+        </object>
+    </template>
+
+    <deformation-parameters>
+        <kernel-width>40</kernel-width>
+        <kernel-type>exact</kernel-type>
+        <number-of-timepoints>10</number-of-timepoints>
+    </deformation-parameters>
+
+</model>

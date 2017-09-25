@@ -18,7 +18,7 @@ RUN apt-get install -y \
       git \
       cmake \
       g++-4.8 \
-      libboost-dev \
+      libboost-all-dev \
       freeglut3-dev \
       libfftw3-dev \
       libopenblas-dev \
